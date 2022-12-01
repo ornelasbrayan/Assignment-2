@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+/*utilities*/
+
+/*nav menu*/
+
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    padding: 8px 17px;
+}
+
+nav.menu a{
+    margin-right: 20px;
+}
+
+.logo-frame{
+    height: 32px;
+}
+
+.logo-complete{
+    display: none;
+}
+
+.link-login{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+}
+
+.link-search{
+    display: none;
+}
+
+.link-news{
+    display: none;
+}
+
+.link-subs{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white!important;
+    background-color: black;
+    padding: 16px;
+
+}
+
+.link-menu{
+    display: none;
+}
+
+.link-arrows{
+
+}
+
+/* header */
+
+header{
+    height: 160px;
+    text-align: center;
+    padding: 50px;
+   
+    
+    
+}
+
+h1{
+    font-size: 43px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+
+.subs{
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    text-decoration-color: rgb(219, 219, 21);
+    text-decoration-style: none;
+    
+}
+
+.line{
+    color: yellow;
+    font-size: 100px;
+}
+
+
+
